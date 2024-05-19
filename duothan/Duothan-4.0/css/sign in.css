@@ -1,0 +1,118 @@
+.form-container {
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 5px;
+    color: #000;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+  }
+  
+  .form {
+    margin-top: 1.5rem;
+    
+  }
+  
+  .input-group {
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  .input-group label {
+    display: block;
+    color: #000;
+    margin-bottom: 4px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    border-radius: 0.375rem;
+    border: 1px solid #000;
+    outline: 0;
+    background-color: #fff;
+    padding: 0.75rem 1rem;
+    color: #000;
+  }
+  
+  .input-group input:focus {
+    border-color: #ff5e72;
+  }
+  
+
+  .sign {
+    display: block;
+    width: 100%;
+    background-color:  #ff5e72;
+    padding: 0.75rem;
+    text-align: center;
+    color: #000;
+    border: none;
+    border-radius: 0.375rem;
+    font-weight: 600;
+  }
+  
+  .social-message {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  
+  .line {
+    height: 1px;
+    flex: 1 1 0%;
+    background-color: #000;
+  }
+  
+  .social-message .message {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color:#000;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons .icon {
+    border-radius: 0.125rem;
+    padding: 0.75rem;
+    border: none;
+    background-color: transparent;
+    margin-left: 8px;
+  }
+  
+  .social-icons .icon svg {
+    height: 1.25rem;
+    width: 1.25rem;
+    fill:  #000;
+  }
+  a {
+    color: #ff5e72;
+      margin-left: 4px;
+      font-size: 16px;
+      text-decoration-color: none;
+      cursor: pointer;
+      font-weight: 600;
+  }
+  
+  .signup {
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1rem;
+    color:#000;
+  }
+  
